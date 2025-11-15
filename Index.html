@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Site Profissional — Santos Meta</title>
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="Style.css" />
+  <link rel="icon" href="https://img.icons8.com/ios/50/python--v2.png" />
+<body>
+
+  <a class="skip-link" href="#inicio">Ir para o conteúdo</a>
+
+  <!-- HEADER -->
+  <header class="header fade-in" id="header" role="banner">
+    <div class="container header-inner">
+      <div class="logo-container">
+        <img src="https://img.icons8.com/3d-fluency/94/telegram-logo.png" alt="Logotipo Santos Meta" class="logo-img" />
+        <h1 class="logo-text">Santos Meta</h1>
+      </div>
+
+      <!-- botão do menu mobile -->
+      <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+      <nav class="nav" id="navbar" aria-label="Navegação principal" role="navigation">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato" class="cta">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero" aria-labelledby="hero-title">
+    <div class="container hero-inner">
+      <h2 id="hero-title" class="typing">Crio experiências digitais incríveis!</h2>
+      <p class="lead fade-in">Transformo ideias em sites modernos, responsivos e cheios de personalidade.</p>
+      <div class="hero-ctas">
+        <a href="#contato" class="btn-glow" data-redirect="/contato">Fale comigo</a>
+        <a href="#portfolio" class="btn-ghost" data-redirect="/portfolio">Ver portfólio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="sobre reveal" aria-labelledby="sobre-title">
+    <div class="container sobre-inner">
+      <picture class="foto-wrap">
+        
+        <img src="n.png" alt="Foto profissional" />
+      </picture>
+      <div class="texto">
+        <h3 id="sobre-title">Sobre mim</h3>
+        <p>Sou um <strong>Web Designer e Desenvolvedor Front-End</strong> com foco em criar experiências únicas. Trabalho com HTML, CSS, JavaScript e ferramentas modernas de design. Meu objetivo é unir estética e funcionalidade, entregando soluções digitais que impressionam e geram resultados reais.</p>
+        <br>
+        <p>💡 Apaixonado por tecnologia, design minimalista e boas experiências do usuário. Sempre aprendendo novas tendências para manter meus projetos atualizados e eficientes.</p>
+        <a href="#servicos" class="link-inline" data-redirect="/servicos">Conheça meus serviços →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="servicos reveal" aria-labelledby="servicos-title">
+    <div class="container">
+      <h3 id="servicos-title">Serviços</h3>
+      <div class="cards">
+        <div class="card" data-redirect="/servicos/uiux" tabindex="0" role="button">
+          <h4>💻 Design UI/UX</h4>
+          <p>Criação de interfaces elegantes, intuitivas e pensadas para encantar o usuário.</p>
+        </div>
+        <div class="card" data-redirect="/servicos/dev" tabindex="0" role="button">
+          <h4>⚙️ Desenvolvimento Web</h4>
+          <p>Sites rápidos, otimizados e responsivos, prontos para qualquer dispositivo.</p>
+        </div>
+        <div class="card" data-redirect="/servicos/branding" tabindex="0" role="button">
+          <h4>🎨 Branding e Identidade</h4>
+          <p>Crio logotipos e identidades visuais que destacam a essência da sua marca.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFÓLIO -->
+  <section id="portfolio" class="servicos reveal" aria-labelledby="portfolio-title">
+    <div class="container">
+      <h3 id="portfolio-title">Portfólio</h3>
+      <div class="cards">
+        <div class="card small">
+          <h4>Projeto 1</h4>
+          <p>Landing page moderna desenvolvida para uma startup de tecnologia.</p>
+          <a class="https://www.instagram.com/brunodevlang_/" href="https://www.instagram.com/brunodevlang_/" data-redirect="https://www.instagram.com/brunodevlang_/">Ver case →</a>
+        </div>
+        <div class="card small">
+          <h4>Projeto 2</h4>
+          <p>Website institucional completo para uma empresa de arquitetura.</p>
+          <a class="card-link" href="#portfolio" data-redirect="/projeto-2">Ver case →</a>
+        </div>
+        <div class="card small">
+          <h4>Projeto 3</h4>
+          <p>Loja virtual totalmente responsiva, com foco em performance e design.</p>
+          <a class="card-link" href="#portfolio" data-redirect="/projeto-3">Ver case →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section id="depoimentos" class="servicos reveal" aria-labelledby="depoimentos-title">
+    <div class="container">
+      <h3 id="depoimentos-title">O que dizem meus clientes</h3>
+      <div class="cards">
+        <div class="card testimonial">
+          <p>"Excelente profissional! O site ficou incrível e superou nossas expectativas."</p>
+          <h4>— Ana Souza, CEO da BrightTech</h4>
+        </div>
+        <div class="card testimonial">
+          <p>"Trabalho impecável, comunicação clara e entrega rápida. Recomendo muito!"</p>
+          <h4>— Lucas Mendes, Fotógrafo</h4>
+        </div>
+        <div class="card testimonial">
+          <p>"Transformou nossa marca online com um design moderno e responsivo."</p>
+          <h4>— Carla Lima, Marketing StudioX</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contato reveal" aria-labelledby="contato-title">
+    <div class="container">
+      <h3 id="contato-title">Entre em contato</h3>
+      <form action="https://formspree.io/f/mqawkroq" method="POST" class="contact-form" aria-label="Formulário de contato">
+        <div class="form-grid">
+          <input type="text" name="nome" placeholder="Seu nome" required aria-required="true" />
+          <input type="email" name="email" placeholder="Seu e-mail" required aria-required="true" />
+        </div>
+        <textarea name="mensagem" placeholder="Sua mensagem" rows="5" required aria-required="true"></textarea>
+        <div class="form-actions">
+          <button type="submit" class="btn-glow">Enviar</button>
+          <a href="mailto:seunome@email.com" class="btn-ghost">Enviar por e-mail</a>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+  <!-- FOOTER -->
+  <footer class="footer fade-in" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© 2025 - Santos Meta | Todos os direitos reservados</p>
+      <p>Desenvolvido com 💙 por <strong>Santos Meta</strong></p>
+    </div>
+  </footer>
+
+  <!-- Script de interação (vazio por enquanto) -->
+  <script src="responsivo.js" defer></script>
+
+</body>
+</html>
